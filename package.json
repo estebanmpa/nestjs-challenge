@@ -1,0 +1,17 @@
+{
+  "name": "challenge-nestjs",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Technical challenge project",
+  "main": "index.js",
+  "repository": "git@github.com:estebanmpa/challenge-nestjs.git",
+  "author": "Esteban <esteban.piga.developer@gmail.com>",
+  "license": "MIT",
+  "workspaces": [
+    "apps/server"
+  ],
+  "scripts": {
+    "build:server": "yarn workspace server build",
+    "start:server": "yarn workspace server start:debug"
+  }
+}
